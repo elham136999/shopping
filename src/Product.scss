@@ -1,0 +1,39 @@
+.product {
+  max-width: 20rem;
+  max-height: 23rem;
+  display: flex;
+
+  .border_product {
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0.2rem 0.2rem 1rem rgb(189, 189, 189);
+  }
+
+  img {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+.button {
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 0.6rem;
+  background-color: rgb(247, 141, 66);
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(3, 3, 121);
+}
+.text {
+  width: 15rem;
+  text-align: center;
+  margin-top: 1rem;
+}
